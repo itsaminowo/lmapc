@@ -18,8 +18,8 @@ hr {
         left: 50%;
         transform: translateX(-50%);
 	box-shadow: 4px 4px 6px -1px #545454;
-	background:linear-gradient(to bottom, #f2f2f2 5%, #8c8c8c 100%);
-        background-color:#f2f2f2;
+	background:linear-gradient(to bottom, red 5%, blue 100%);
+        background-color:red;
 	border-radius:28px;
 	border:1px solid #000000;
 	display:inline-block;
@@ -33,8 +33,8 @@ hr {
 	text-shadow:-1px 3px 6px #000000;
      }
      .entersimbtn:hover {
-	background:linear-gradient(to bottom, #8c8c8c 5%, #f2f2f2 100%);
-	background-color:#8c8c8c;
+	background:linear-gradient(to bottom, blue 5%, red 100%);
+	background-color:blue;
      }
      .entersimbtn:active {
 	position:relative;
