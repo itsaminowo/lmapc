@@ -9,3 +9,33 @@ hr {
   border-top: 2px solid gray;
   border: 2px solid gray;
 }
+.containbtn {  
+  text-align: center;  
+  width: 60px;  
+  height: 20px;  
+  padding-top: 50px;  
+}  
+.entersimbtn {
+	box-shadow: 4px 4px 6px -1px #545454;
+	background:linear-gradient(to bottom, #f2f2f2 5%, #8c8c8c 100%);
+	background-color:#f2f2f2;
+	border-radius:28px;
+	border:1px solid #000000;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Courier New;
+	font-size:17px;
+	font-weight:bold;
+	padding:15px 17px;
+	text-decoration:none;
+	text-shadow:-1px 3px 6px #000000;
+}
+.entersimbtn:hover {
+	background:linear-gradient(to bottom, #8c8c8c 5%, #f2f2f2 100%);
+	background-color:#8c8c8c;
+}
+.entersimbtn:active {
+	position:relative;
+	top:1px;
+}
